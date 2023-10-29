@@ -1,0 +1,41 @@
+.navbar-nav .nav-item:not(.d-lg-flex){
+    margin-left: 0px;
+    transition: 1s;
+}
+
+@media (min-width: 990px){
+    .navbar-nav .nav-item:not(.d-lg-flex){
+        margin-left: 100px;
+    }
+}
+
+#options{
+    padding-left: 10%;
+}
+
+#options{
+    float: left;
+    width: 25%;   
+}
+
+h1{
+    font-size: 0.1em;
+}
+
+#text-carousel .carousel-item p{
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+}
+
+#options a{
+    display: block;
+    padding: 10px;
+    border: 1px solid #d6d5d5;
+    color:inherit;
+    border-radius: 0.3em;
+}
+
+p{
+    text-align: justify;
+}
